@@ -33,7 +33,8 @@ register_nav_menus(
     array(
         'top-menu' => __('Top Menu', 'woocommerce-website'),
         'footer_menu' => __('Secondary Menu', 'woocommerce-website'),
-    ));
+    )
+);
 
 
 add_image_size('post_image', 1100, 300, true);
@@ -58,4 +59,4 @@ function mytheme_add_woocommerce_support()
     add_theme_support('woocommerce');
 }
 
-add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
+add_action('after_setup_theme', 'mytheme_add_woocommerce_support');

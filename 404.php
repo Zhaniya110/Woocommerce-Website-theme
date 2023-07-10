@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 get_header(); ?>
 
@@ -7,5 +7,5 @@ get_header(); ?>
         <h1>404 oh not that page!</h1>
     </div>
 </div>
-<?php 
+<?php
 get_footer();
