@@ -100,4 +100,9 @@ footer{
     font-size: 1.1rem;
 }
 
-
+.page-numbers{
+    padding: 0.5rem 1rem;
+    background-color: beige;
+    display: flex;
+ 
+}
